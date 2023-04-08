@@ -1,0 +1,71 @@
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #BB583A;
+  padding: 30px;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+}
+
+nav {
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 0.95em;
+	font-weight: bold;
+	text-align: right;
+	background: #f1f1f1;
+	padding: 0.5px;
+}
+
+/* Style for the unordered list padding and margin in the nav section */
+nav ul {
+	padding: 0;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+/* Style for the list properties in the nav section */
+nav li {
+	background-color: #e4e6e7;
+	list-style-type: none;
+	display: inline;
+	margin: 0.1em;
+	padding: 0.4em;
+}
+
+/* Style for the nav links in the nav section */
+nav li a {
+	color: #47464b;
+	text-decoration: none;
+}
+
+p {
+  text-indent: 50px ;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+article {
+  padding: 20px;
+  background-color: white;
+  text-align: justify;
+}
+
+footer {
+  float: left;
+  background-color: #BB583A;
+  padding: 10px;
+  color: white;
+}
+
+body {
+	font-family: Arial;
+}
